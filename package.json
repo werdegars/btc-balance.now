@@ -1,0 +1,33 @@
+{
+  "name": "btc-balance.now",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Minimal service to check the balance of a Bitcoin (BTC) address.",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "status",
+    "isitup"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-sanitizer": "^1.0.3",
+    "helmet": "^3.11.0",
+    "node-fetch": "^2.0.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
+}

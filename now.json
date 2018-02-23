@@ -1,0 +1,19 @@
+{
+    "name": "btc-balance",
+    "public": false,
+    "alias": [
+        "btc-balance.now.sh",
+        "balance.now.sh"
+    ],
+    "files": [
+        "index.js",
+    	".env",
+        "css/styles.css",
+        "index.html",
+        "status.html",
+        "package.json"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
+}
