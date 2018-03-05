@@ -1,6 +1,6 @@
 {
   "name": "btc-balance.now",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Minimal service to check the balance of a Bitcoin (BTC) address.",
   "author": {
